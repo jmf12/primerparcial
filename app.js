@@ -28,7 +28,7 @@ const cargarNoticias= (url)=>{
             }else{
                 return false;
             }
-           
+         
         i++;
         });
         document.getElementById("noticias").innerHTML= todas;
