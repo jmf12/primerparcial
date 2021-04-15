@@ -3,8 +3,8 @@
 
 const generarNoticia=(id,titulo,descripcion,fecha,categoria)=>{
     let noticia= `<div class="card col-12 mt-2" >                        
-    <div class="card-cuerpo">
-      <h5 class="card-titulo">${titulo} - ${categoria} - ${fecha}</h5>
+    <div class="card-body">
+      <h5 class="card-title">${titulo} - ${categoria} - ${fecha}</h5>
       <p class="card-text">
          ${descripcion}
       </p>
