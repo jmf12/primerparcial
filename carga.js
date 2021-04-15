@@ -25,7 +25,6 @@ todas+= generarNoticia(noticia.id,noticia.titulo,noticia.descripcion,noticia.fec
         document.getElementById("noticias").innerHTML= todas;
     });
 }
-
 const cargarCategoria= (categoria,url)=>{
     fetch(url)
     .then(r=>r.json())
