@@ -1,3 +1,12 @@
 body {
   background: linear-gradient(to top , #94E0EA, #E7FCFF  );
 }
+
+.borde{
+    margin-left: 2% !important;
+}
+
+.borde2{
+   width: 30% !important;
+   margin-top: 3%;
+}
